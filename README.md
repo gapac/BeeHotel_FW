@@ -8,3 +8,9 @@
 - LORA messagi
 - integracija mikrofona z i2s
 - posebej main funkcija brez AI
+
+
+
+
+## knjiznice
+- BME680 https://github.com/adafruit/Adafruit_BME680/tree/master

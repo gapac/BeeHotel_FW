@@ -1,3 +1,5 @@
+#include <bme68xLibrary.h>
+
 /* Edge Impulse Arduino examples
  * Copyright (c) 2022 EdgeImpulse Inc.
  *
