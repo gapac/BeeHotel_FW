@@ -73,7 +73,7 @@ void PrintCalculatedData() {
 int CalculateConfidenceLevel(float x) {
     // Check if input is within the valid range
     if (x < 0.0 || x > 1.0) {
-        printf("Input must be within the range [0, 1]\n");
+        Serial.print("Input must be within the range [0, 1]\n");
         return -1;                      // Return an error value
     }
     return (int)(x * 10000);            // return the integer value of confidence level
