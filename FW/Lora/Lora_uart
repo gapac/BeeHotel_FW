@@ -15,6 +15,10 @@ void setup() {
 
   // Test communication with RAK3172
   sendATCommand("AT+VER=?", 1000);
+
+  // Send temperature data as an example
+  int temperature = 1000; // Temperature value to send
+  sendTemperatureData(temperature, 1000);
 }
 
 void loop() {
@@ -37,4 +41,9 @@ void sendATCommand(String cmd, const int timeout) {
   }
   Serial.print("Response: ");
   Serial.println(response);
+}
+
+void sendTemperatureData(int temperature, const int timeout) {
+  String cmd = "AT+TEMP=" + String(temperature);
+  sendATCommand(cmd, timeout);
 }
