@@ -24,9 +24,3 @@
 - Senzorji
 - LoRaWAN modul
 
-## Zoki:
-- stuktura
-- mySerialPrint
-
-## gasper:
-- datoteka sensors
