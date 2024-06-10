@@ -15,7 +15,7 @@
 
 ## Navodila za izdelavo MVP programa
 - Testiranje bme680 senzorja (temperatura, kvaliteta zraka, tlak, vlažnost) ostali senzor (svetlost, buzz/nobuzz)
-   0...100 with decimal place, ohms 0.3k...20k ohm zdeljeno z 10 ,  300...1100 hPa, 0...100%, 0...100%, 0...10000
+- Obseg parametrov: 0...100 z decimalnim mestom,  0.3k...20k ohm zdeljeno z 10 ,  300...1100 hPa, 0...100%, 0...100%, 0...10000
 - Testiranje ML algoritma
 - Testiranje LoRaWAN modula
 
