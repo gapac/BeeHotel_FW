@@ -18,13 +18,8 @@ typedef struct
   uint16_t airQuality;            // (30k -> 200k )/10
   uint16_t pressure;              // 300 -> 1100 hPa
   uint8_t hum;                    // 0 -> 100% humidity
-
-  uint16_t buzzConfidenceLevel;   // (float) 0 -> 1 to integer 
-  //uint16_t nobuzzConfidenceLevel; // (float) 0 -> 1 to integer 
+  uint16_t buzzConfidenceLevel;   // (float) 0 -> 1 to integer  
   uint8_t brightness;             // 0 -> 100%
-
-  
-  
 
 } Bees_data_t;
 #pragma pack(pop) 
